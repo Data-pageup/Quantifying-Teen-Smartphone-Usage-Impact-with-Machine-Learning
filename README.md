@@ -72,3 +72,7 @@ We implemented and compared multiple regression models:
    ```bash
    git clone https://github.com/your-username/teen-smartphone-usage-analysis.git
    cd teen-smartphone-usage-analysis
+   
+## 📊 Model Comparison (Visualization)
+
+![Model Comparison](model_comparison.png)
