@@ -1,59 +1,74 @@
-📱 Teen Smartphone Usage & Addiction Impact – ML Analysis
-📌 Project Overview
+# 📱 Teen Smartphone Usage & Addiction Impact – ML Analysis  
 
-This project explores how smartphone usage patterns affect teenagers’ academic, health, and behavioral outcomes.
-Using machine learning, we quantify the impact of screen time, social media, gaming, and lifestyle factors on:
+## 📌 Project Overview  
+This project explores how **smartphone usage patterns** affect teenagers’ academic, health, and behavioral outcomes.  
+Using **machine learning**, we quantify the impact of screen time, social media, gaming, and lifestyle factors on:  
 
-📖 Academic performance
+- 📖 **Academic performance**  
+- 🧠 **Cognitive skills** (IQ, grades, projects)  
+- ⚖️ **Lifestyle balance** (exercise, phone checks, etc.)  
+- 🎯 **Placement readiness**  
 
-🧠 Cognitive skills (IQ, grades, projects)
+---
 
-⚖️ Lifestyle balance (exercise, phone checks, etc.)
+## 📊 Dataset Highlights  
+The dataset captures detailed **daily and weekly smartphone usage behavior** of teenagers.  
 
-🎯 Placement readiness
+### Columns  
 
-🗂️ Dataset Highlights
+| Column Name            | Description |
+|------------------------|-------------|
+| **Age**                | Age of participant (years) |
+| **Gender**             | Gender identity |
+| **Time_on_Social_Media** | Avg. daily hours spent on social media |
+| **Time_on_Education**  | Avg. daily study/learning hours |
+| **Time_on_Gaming**     | Avg. daily gaming hours |
+| **Phone_Checks_Per_Day** | Number of phone unlocks/checks per day |
+| **Phone_Usage_Purpose** | Primary phone usage (education, gaming, social, etc.) |
+| **Exercise_Hours**     | Weekly physical activity (hours) |
+| **Academic_Performance** | GPA or academic score |
+| **IQ**                 | Self-reported / estimated intelligence |
+| **CG**                 | Cumulative grade |
+| **Internship_Experience** | Internship exposure (Yes/No) |
+| **Projects_Completed** | Academic / personal projects completed |
+| **Placement**          | Placement status (Selected / Not Selected) |
+| **Addiction_Level**    | Numeric score of smartphone addiction severity |
 
-The dataset captures detailed daily/weekly usage behavior of teenagers:
+---
 
-Column	Description
-Age	Age of participant (years)
-Gender	Gender identity
-Time_on_Social_Media	Daily hours on social media
-Time_on_Education	Daily study/learning hours
-Time_on_Gaming	Daily gaming hours
-Phone_Checks_Per_Day	No. of times phone checked daily
-Phone_Usage_Purpose	Primary purpose (social, education, gaming, etc.)
-Exercise_Hours	Weekly physical activity (hours)
-Academic_Performance	GPA or academic score
-IQ	Self-reported / estimated intelligence
-CG	Cumulative Grade
-Internship_Experience	Internship exposure (Yes/No)
-Projects_Completed	Academic / personal projects completed
-Placement	Placement status (Selected/Not Selected)
-Addiction_Level	Numeric score of smartphone addiction severity
-🎯 Research & Use Cases
+## 🎯 Research & Use Cases  
+This dataset + analysis can be used to:  
 
-This dataset + analysis can be used to:
+- 📊 **Analytics** → Explore correlations between digital habits & outcomes  
+- 🤖 **Regression Models** → Predict addiction impact scores or academic performance  
+- 🏷️ **Classification Models** → Categorize teens into *Low / Moderate / High Addiction*  
+- 🎓 **Career Insights** → Understand how phone use affects placements & internships  
 
-🔍 Analytics → Explore correlations between digital habits & outcomes
+---
 
-📊 Regression Models → Predict addiction impact score or academic performance
+## ⚙️ Machine Learning Models  
+We implemented and compared multiple regression models:  
 
-🏷️ Classification Models → Categorize teens into Low / Moderate / High Addiction
+- 🔹 Linear Regression  
+- 🔹 Ridge Regression  
+- 🔹 Lasso Regression  
+- 🔹 Decision Tree Regressor  
 
-🧑‍🏫 Education Insights → Understand how smartphone usage influences learning & placements
+### 📈 Evaluation Metrics  
+- 📏 Mean Absolute Error (MAE)  
+- 📏 Mean Squared Error (MSE)  
+- 📊 R² Score  
 
-⚙️ Machine Learning Models
+### 🔍 Visualizations  
+- Actual vs Predicted scatter plots  
+- Residual analysis  
+- Bar charts for **MAE, MSE, R² comparison** across models  
 
-We implemented and compared multiple regression models:
+---
 
-Linear Regression
+## 🚀 How to Use  
 
-Ridge Regression
-
-Lasso Regression
-
-Decision Tree Regressor
-
-📈 Models were evaluated using MAE, MSE, and R² scores with visualization for performance comparison.
+1. Clone this repo:  
+   ```bash
+   git clone https://github.com/your-username/teen-smartphone-usage-analysis.git
+   cd teen-smartphone-usage-analysis
