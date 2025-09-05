@@ -1,43 +1,59 @@
-# 📱 Quantifying Teen Smartphone Usage Impact with Machine Learning
+📱 Teen Smartphone Usage & Addiction Impact – ML Analysis
+📌 Project Overview
 
-### 📌 Dataset Overview  
-This dataset focuses on **teen smartphone usage patterns** and their effects on **behavioral, academic, and health outcomes**.  
-It captures daily phone usage distribution, addiction severity, academic performance, and lifestyle factors.  
+This project explores how smartphone usage patterns affect teenagers’ academic, health, and behavioral outcomes.
+Using machine learning, we quantify the impact of screen time, social media, gaming, and lifestyle factors on:
 
-This dataset enables **researchers, educators, psychologists, and data scientists** to:  
-- Explore behavioral trends in digital usage  
-- Model addiction impact on academic performance, health, and placements  
-- Build **classification models** (e.g., “Addicted vs. Not Addicted”)  
-- Build **regression models** (e.g., predicting addiction impact score)  
+📖 Academic performance
 
----
+🧠 Cognitive skills (IQ, grades, projects)
 
-### 📊 Column Descriptions  
+⚖️ Lifestyle balance (exercise, phone checks, etc.)
 
-| Column Name            | Description |
-|-------------------------|-------------|
-| **Age**                | Age of the participant (in years) |
-| **Gender**             | Gender identity of the participant |
-| **Time_on_Social_Media** | Avg. daily time spent on social media (hours) |
-| **Time_on_Education**  | Daily study/learning time (hours) |
-| **Time_on_Gaming**     | Daily gaming time (hours) |
-| **Phone_Checks_Per_Day** | No. of times participant checks phone daily |
-| **Phone_Usage_Purpose** | Primary purpose of phone use (social, gaming, education, etc.) |
-| **Exercise_Hours**     | Weekly physical activity (hours) |
-| **Academic_Performance** | Academic score or GPA |
-| **IQ**                 | Self-reported or estimated intelligence score |
-| **CG**                 | Cumulative Grade (general performance metric) |
-| **Internship_Experience** | Internship exposure (binary/categorical) |
-| **Projects_Completed** | No. of self-initiated or academic projects |
-| **Placement**          | Placement status (selected / not selected) |
-| **Addiction_Level**    | Numeric measure of smartphone/screen addiction severity |
+🎯 Placement readiness
 
----
+🗂️ Dataset Highlights
 
-### 🎯 Use Cases  
-- **Regression** → Predict addiction impact factor  
-- **Classification** → Categorize teens as *Low / Moderate / High addiction*  
-- **Analytics** → Explore correlation between digital behavior and **academic/placement outcomes**  
+The dataset captures detailed daily/weekly usage behavior of teenagers:
 
----
+Column	Description
+Age	Age of participant (years)
+Gender	Gender identity
+Time_on_Social_Media	Daily hours on social media
+Time_on_Education	Daily study/learning hours
+Time_on_Gaming	Daily gaming hours
+Phone_Checks_Per_Day	No. of times phone checked daily
+Phone_Usage_Purpose	Primary purpose (social, education, gaming, etc.)
+Exercise_Hours	Weekly physical activity (hours)
+Academic_Performance	GPA or academic score
+IQ	Self-reported / estimated intelligence
+CG	Cumulative Grade
+Internship_Experience	Internship exposure (Yes/No)
+Projects_Completed	Academic / personal projects completed
+Placement	Placement status (Selected/Not Selected)
+Addiction_Level	Numeric score of smartphone addiction severity
+🎯 Research & Use Cases
 
+This dataset + analysis can be used to:
+
+🔍 Analytics → Explore correlations between digital habits & outcomes
+
+📊 Regression Models → Predict addiction impact score or academic performance
+
+🏷️ Classification Models → Categorize teens into Low / Moderate / High Addiction
+
+🧑‍🏫 Education Insights → Understand how smartphone usage influences learning & placements
+
+⚙️ Machine Learning Models
+
+We implemented and compared multiple regression models:
+
+Linear Regression
+
+Ridge Regression
+
+Lasso Regression
+
+Decision Tree Regressor
+
+📈 Models were evaluated using MAE, MSE, and R² scores with visualization for performance comparison.
